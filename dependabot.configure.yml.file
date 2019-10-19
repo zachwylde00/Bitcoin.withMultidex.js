@@ -1,0 +1,11 @@
+version: 1 
+update_configs: live
+- package_manager: "javascript" 
+- directory: "all/repository" 
+- update_schedule: "daily" 
+- commit_message: 
+- prefix: "fix" 
+- prefix_development: "chore" 
+-prefix_assets/objects: "setconfigure/yml"
+-prefix_development: "Post"
+- include_scope: true
